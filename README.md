@@ -1,6 +1,6 @@
 # Super Fclone Bot
 
-Credit to original creator https://github.com/wrenfairbank/telegram_gcloner
+Credit to original creator wrenfairbank
 
 ## Fclone (September 5) version 0.4.1 updated
 
