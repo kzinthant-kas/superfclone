@@ -158,8 +158,9 @@ class MySaveFileThread(threading.Thread):
                                        '🔍 Existing： <code>{} / {}</code>\n' \
                                        '📄 Transfering： <code>{} / {}</code>\n' \
                                        '📦 Size：<code>{} / {}</code>\n{}' \
-                                       '🚀 Speed：<code>{} ETA {}</code>\n' \
-                                       '⏳ Progress：<code>{}</code>' \
+                                       '🛰 Bandwidth Speed：<code>{} ETA {}</code>\n' \
+                                       '⏰ Estimated time：<code>{}</code>\n' \
+                                       '⏳ Progress：<code>{}</code>\n' \
                                        '📈 Percentage：<code>{: >4}%</code>' \
                         .format(
                         folder_id,
@@ -173,7 +174,7 @@ class MySaveFileThread(threading.Thread):
                         f'🚀 Speed：<code>{progress_speed_file}</code>\n' if is_fclone is True else '',
                         progress_speed,
                         progress_eta,
-                        '🟢' * progress_file_percentage_10 + '⚪️' * (
+                        '✅' * progress_file_percentage_10 + '☑️' * (
                                 progress_max_percentage_10 - progress_file_percentage_10) + ' ' * (
                                 10 - progress_max_percentage_10),
                         progress_file_percentage)
