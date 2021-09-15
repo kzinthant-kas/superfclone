@@ -4,7 +4,7 @@
 	"repository": "https://github.com/kzinthant-kas/superfclone",
 	"keywords": ["fclone","FG"],
         "website": "https://t.me/drivetalk",
-        "success_url": "https://github.com/kzinthant-kas/superfclone/blob/master/README.md",
+        "success_url": "https://github.com/kzinthant-kas/superfclone/blob/main/README.md",
 	"env": {
 		"telegram_token": {
 			"description": "Get one from @botfather by creating new bot"
