@@ -1,0 +1,24 @@
+{
+	"name": "Super Fclone Bot",
+	"description": "Super Fclone Bot",
+	"repository": "https://github.com/kzinthant-kas/superfclone",
+	"keywords": ["Gclone","TG"],
+        "website": "https://t.me/drivetalk",
+        "success_url": "https://github.com/kzinthant-kas/superfclone/blob/master/README.md",
+	"env": {
+		"telegram_token": {
+			"description": "Get one from @botfather by creating new bot"
+		},
+		"user_ids": {
+			"description": "https://t.me/MissRose_bot in MissRose, type /id and put here, multiple users separate by comma ,"
+		},
+		"group_ids": {
+			"description": "Put group id, if there is no group, put -1"
+		},
+		"gclone_para_override": {
+			"description": "Skip this if you don't know",
+			"required": false
+		}
+	},
+    	"stack": "container"
+}
