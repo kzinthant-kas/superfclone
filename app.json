@@ -14,7 +14,7 @@
 		},
 		"group_ids": {
 			"description": "Put group id, if there is no group, put -1",
-      "value": -1
+      "value": "-1"
 		},
 		"gclone_para_override": {
 			"description": "Skip this if you don't know",
