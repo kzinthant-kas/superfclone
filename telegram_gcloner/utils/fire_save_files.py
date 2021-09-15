@@ -160,8 +160,8 @@ class MySaveFileThread(threading.Thread):
                                        '📦 Size：<code>{} / {}</code>\n{}' \
                                        '🛰 Bandwidth Speed：<code>{}</code>\n' \
                                        '⏰ Estimated time：<code>{}</code>\n' \
-                                       '⏳ Progress：<code>{}</code>\n' \
-                                       '📈 Percentage：<code>{: >4}%</code>' \
+                                       '⏳ Progress：[<code>{}</code>]\n' \
+                                       '📈 Percentage：<code>{}%</code>' \
                         .format(
                         folder_id,
                         html.escape(destination_path),
