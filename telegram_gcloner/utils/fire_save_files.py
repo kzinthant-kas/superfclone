@@ -106,7 +106,7 @@ class MySaveFileThread(threading.Thread):
             progress_file_percentage = 0
             progress_file_percentage_10 = 0
             progress_transferred_size = '0'
-            progress_total_size = '0 Bytes'
+            progress_total_size = '0 bytes'
             progress_speed = '-'
             progress_speed_file = '-'
             progress_eta = '-'
