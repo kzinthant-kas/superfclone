@@ -13,7 +13,8 @@
 			"description": "https://t.me/MissRose_bot in MissRose, type /id and put here, multiple users separate by comma ,"
 		},
 		"group_ids": {
-			"description": "Put group id, if there is no group, put -1"
+			"description": "Put group id, if there is no group, put -1",
+      "value": -1
 		},
 		"gclone_para_override": {
 			"description": "Skip this if you don't know",
