@@ -154,11 +154,11 @@ class MySaveFileThread(threading.Thread):
                         progress_checked_files = int(match_checked_files.group(1))
                         progress_total_check_files = int(match_checked_files.group(2))
                     progress_max_percentage_10 = max(progress_size_percentage_10, progress_file_percentage_10)
-                    message_progress = '<a href="https://drive.google.com/open?id={}">{}</a>\n' \
-                                       '🔍 Existing： <code>{} / {}</code>\n' \
-                                       '📄 Transfering： <code>{} / {}</code>\n' \
+                    message_progress = '📤 Source: <a href="https://drive.google.com/open?id={}">{}</a>\n' \
+                                       '🔍 Existing checks： <code>{} / {}</code>\n' \
+                                       '📄 Transfers： <code>{} / {}</code>\n' \
                                        '📦 Size：<code>{} / {}</code>\n{}' \
-                                       '🛰 Bandwidth Speed：<code>{} ETA {}</code>\n' \
+                                       '🛰 Bandwidth Speed：<code>{}</code>\n' \
                                        '⏰ Estimated time：<code>{}</code>\n' \
                                        '⏳ Progress：<code>{}</code>\n' \
                                        '📈 Percentage：<code>{: >4}%</code>' \
@@ -171,10 +171,10 @@ class MySaveFileThread(threading.Thread):
                         progress_total_files,
                         progress_transferred_size,
                         progress_total_size,
-                        f'🚀 Speed：<code>{progress_speed_file}</code>\n' if is_fclone is True else '',
+                        f'🚀 File Speed：<code>{progress_speed_file}</code>\n' if is_fclone is True else '',
                         progress_speed,
                         progress_eta,
-                        '✅' * progress_file_percentage_10 + '☑️' * (
+                        '●' * progress_file_percentage_10 + '○' * (
                                 progress_max_percentage_10 - progress_file_percentage_10) + ' ' * (
                                 10 - progress_max_percentage_10),
                         progress_file_percentage)
