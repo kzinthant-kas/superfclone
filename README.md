@@ -1,9 +1,9 @@
 # Super Fclone Bot
 
-Credit to original creator mawaya
+Credit to original creator https://github.com/wrenfairbank/telegram_gcloner
 
-## Fclone version 0.4.1 (updated at september 5)
+## Fclone (September 5) version 0.4.1 updated
 
-## Deploy to heroku and follow instruction
+# Deploy to heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/kzinthant-kas/superfclone)
