@@ -2,7 +2,7 @@
 	"name": "Super Fclone Bot",
 	"description": "Super Fclone Bot",
 	"repository": "https://github.com/kzinthant-kas/superfclone",
-	"keywords": ["Gclone","TG"],
+	"keywords": ["fclone","FG"],
         "website": "https://t.me/drivetalk",
         "success_url": "https://github.com/kzinthant-kas/superfclone/blob/master/README.md",
 	"env": {
